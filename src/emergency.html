@@ -26,6 +26,370 @@
     </div>
     </section>
 
+ 
+    <section class="emergency-services">
+
+        <div class="emergency-heading">
+
+            <h2>Available Emergency Services Near You</h2>
+             </div>
+            <div class="services-grid">
+
+
+                <div class="service-card">
+
+                    <div class="service-top">
+
+                        <div class="icon">🚑</div>
+
+                        <div class="info">
+                            <h3>Ambulance</h3>
+
+                            <p>
+                                Emergency medical transport
+                            </p>
+
+                            <span class="available">
+                                ● 8 available
+                            </span>
+
+                            <span class="eta">
+                                ETA: &lt; 5 min
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-buttons">
+
+                        <a href="services.html" class="request">
+                            Request Now
+                        </a>
+
+                        <a href="tel:999" class="call">
+                            📞 Call
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="service-card">
+
+                    <div class="service-top">
+
+                        <div class="icon">🩸</div>
+
+                        <div class="info">
+                            <h3>Blood Bank</h3>
+
+                            <p>
+                                Urgent blood donors
+                            </p>
+
+                            <span class="available">
+                                ● 14 available
+                            </span>
+
+                            <span class="eta">
+                                ETA: &lt; 15 min
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-buttons">
+
+                        <a href="services.html" class="request">
+                            Request Now
+                        </a>
+
+                        <a href="tel:999" class="call">
+                            📞 Call
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-top">
+
+                        <div class="m-icon">🔧</div>
+
+                        <div class="info">
+                            <h3>Roadside Mechanic</h3>
+
+                            <p>
+                                Breakdown &amp; emergency repair
+                            </p>
+
+                            <span class="available">
+                                ● 6 available
+                            </span>
+
+                            <span class="eta">
+                                ETA: &lt; 20 min
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-buttons">
+
+                        <a href="services.html" class="request">
+                            Request Now
+                        </a>
+
+                        <a href="services.html" class="call">
+                            📞 Call
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Electrician -->
+
+                <div class="service-card">
+
+                    <div class="service-top">
+
+                        <div class="e-icon">⚡</div>
+
+                        <div class="info">
+                            <h3>Emergency Electrician</h3>
+
+                            <p>
+                                Power outage &amp; electrical hazard
+                            </p>
+
+                            <span class="available">
+                                ● 4 available
+                            </span>
+
+                            <span class="eta">
+                                ETA: &lt; 25 min
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="card-buttons">
+
+                        <a href="services.html" class="request">
+                            Request Now
+                        </a>
+
+                        <a href="services.html" class="call">
+                            📞 Call
+                        </a>
+
+                    </div>
+
+                </div>
+  </div>
+ 
+</section>
+<section class="blood-section">
+
+    <div class="blood-container">
+
+        <div class="blood-heading">
+
+            <div class="blood-icon">🩸</div>
+
+            <h2>Urgent Blood Donor Request</h2>
+
+            <p>
+                Send an alert to verified blood donors
+                in your area immediately.
+            </p>
+
+        </div>
+
+        <form id="donorForm" class="blood-form">
+
+            <!-- Blood Type -->
+            <div class="form-group">
+
+                <label for="bloodType">
+                    Blood Type Needed
+                </label>
+
+                <div class="blood-types" id="bloodType">
+
+                    <button type="button" data-blood-type="A+">A+</button>
+                    <button type="button" data-blood-type="A-">A-</button>
+
+                    <button type="button" data-blood-type="B+">B+</button>
+                    <button type="button" data-blood-type="B-">B-</button>
+
+                    <button type="button" data-blood-type="O+">O+</button>
+                    <button type="button" data-blood-type="O-">O-</button>
+
+                    <button type="button" data-blood-type="AB+">AB+</button>
+                    <button type="button" data-blood-type="AB-">AB-</button>
+
+                </div>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+               <!-- Location -->
+
+                <div class="form-group">
+
+                    <label for="location">
+                        Hospital / Location
+                    </label>
+
+                    <input
+                        id="location"
+                        type="text"
+                        placeholder="e.g., Chittagong Medical College Hospital"
+                    >
+
+                </div>
+
+
+                <!-- Notes -->
+
+                <div class="form-group">
+
+                    <label for="notes">
+                        Additional Notes
+                    </label>
+
+                    <textarea
+                        id="notes"
+                        rows="3"
+                        placeholder="Additional information about the emergency..."
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit" class="alert-button">
+                    🚨 Send Emergency Donor Alert
+                </button>
+
+            </form>
+
+
+            <!-- Success Message -->
+
+            <div id="alertMessage" class="success hidden">
+
+                <div class="success-icon">✅</div>
+
+                <h3>Alert Sent!</h3>
+
+                <p>
+                    Nearby verified donors have been notified.
+                    You should hear back within minutes.
+                </p>
+
+                <button id="anotherAlert">
+                    Send another alert
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         Emergency Tips
+    ========================== -->
+
+    <section class="tips">
+
+        <div class="container">
+
+            <h2>Emergency Tips</h2>
+
+            <div class="tips-grid">
+
+
+                <div class="tip">
+
+                    <div class="tip-icon">📞</div>
+
+                    <h3>Call 999 First</h3>
+
+                    <p>
+                        In a life-threatening emergency,
+                        always call 999 before using any app.
+                    </p>
+
+                </div>
+
+
+                <div class="tip">
+
+                    <div class="tip-icon">📍</div>
+
+                    <h3>Share Your Location</h3>
+
+                    <p>
+                        Enable location sharing so providers
+                        can reach you quickly.
+                    </p>
+
+                </div>
+
+
+                <div class="tip">
+
+                    <div class="tip-icon">🏥</div>
+
+                    <h3>Know Your Hospital</h3>
+
+                    <p>
+                        Find your nearest emergency room
+                        before you need it.
+                    </p>
+
+                </div>
+
+
+                <div class="tip">
+
+                    <div class="tip-icon">🩸</div>
+
+                    <h3>Know Your Blood Type</h3>
+
+                    <p>
+                        Knowing your blood type can save
+                        precious minutes in an emergency.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- JavaScript -->
+
+    <script src="emergency.js"></script>
+
+</body>
+
+
     
 </body>
 </html>
