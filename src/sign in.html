@@ -1,30 +1,63 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign in</title>
-    </head>
-    <body>
-    
-        <center>
-            <div>
-<img src="logo.jpeg" height="60" width="60">
-<h2>HelpHub</h2>
-            </div>
-            <div>
-        <form>
-            <input type="text" placeholder="mobile or email address" required>
-<br><br>
-<input type="text" placeholder="Password" required>
-<br><br>
-<label><input type="checkbox">Remember me</label>
-<br><br>
-<button type="submit">Log in</button><br>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HelpHub — Sign in</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="sign in.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="brand-panel" aria-label="HelpHub introduction">
+        <a class="brand" href="#" aria-label="HelpHub home">
+          <span class="brand-mark">H</span><span>HelpHub</span>
+        </a>
+
+        <div class="brand-copy">
+          <h1>Smart help,<br />right nearby.</h1>
+          <p>Trusted service providers, emergency assistance,<br />and local jobs — all in one place.</p>
+          <div class="avatar-row" aria-label="HelpHub community members">
+            <span>SM</span><span>CR</span><span>PN</span><span>JO</span><strong>+50K</strong>
+          </div>
+          <small>Join 50,000+ users already on HelpHub</small>
+        </div>
+
+        <footer>© 2026 HelpHub</footer>
+      </section>
+
+      <section class="login-panel">
+        <form class="login-card" id="loginForm">
+          <header>
+            <h2>Welcome back</h2>
+            <p>Sign in to your account</p>
+          </header>
+
+          <div class="account-types" role="tablist" aria-label="Account type">
+            <button class="account-type active" type="button" role="tab" aria-selected="true" data-type="Customer"><span>♟</span> Customer</button>
+            <button class="account-type" type="button" role="tab" aria-selected="false" data-type="Service Provider"><span>⌁</span> Service Provider</button>
+          </div>
+
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+          <div class="field-heading">
+            <label for="password">Password</label>
+            <a href="#">Forgot password?</a>
+          </div>
+          <input id="password" name="password" type="password" placeholder="••••••••" required />
+
+          <button class="sign-in" type="submit">Sign In as Customer</button>
+
+          <div class="divider"><span>or</span></div>
+          <button class="emergency" type="button">🧘&nbsp; Access Emergency Help Without Login</button>
+          <p class="signup">Don't have an account? <a href="#">Create one free</a></p>
+          <p class="feedback" id="feedback" role="status"></p>
         </form>
-            </div>
-            <div>
-<p><a href="#">Forgotten password?</a></p>
-            </div>
-        </center>
-    </body>
-    </html>
+      </section>
+    </main>
+    <script src="sign in.js"></script>
+  </body>
+</html>

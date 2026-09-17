@@ -286,7 +286,7 @@ color: black;
 }
 .section-heading p{
     max-width: 620px;
-    margin: 12 auto 0;
+    margin: auto ;
     color:var(--gray-500);
 }
 .services-grid{
