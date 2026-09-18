@@ -1,0 +1,136 @@
+{
+    "bloodDonation": [
+        {
+         "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
+            "name": "Rahul Kumar",
+            "bloodType": "O+",
+            "role": "Blood Donor · Volunteer",
+            "location": "Austin, TX · 0.6 mi",
+            "available": true,
+            "avatarColor": "#16A34A"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
+            "name": "Tina Moore",
+            "bloodType": "AB-",
+            "role": "Blood Donor · Volunteer",
+            "location": "Austin, TX · 1.2 mi",
+            "available": true,
+            "avatarColor": "#DC2626"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
+            "name": "John Stiles",
+            "bloodType": "B+",
+            "role": "Blood Donor · Volunteer",
+            "location": "Austin, TX · 2.1 mi",
+            "available": true,
+            "avatarColor": "#7C3AED"
+        }
+    ],
+
+    "mechanics": [
+        {
+            "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&auto=format",
+            "name": "Mike Thompson",
+            "badge": "Top Rated",
+            "badgeType": "green",
+            "role": "Auto Mechanic · 12 yrs exp",
+            "location": "Dallas, TX · 1.4 mi",
+            "rating": "4.9",
+            "jobs": "312"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
+            "name": "David Lee",
+            "badge": "Verified",
+            "badgeType": "blue",
+            "avatarColor": "#2563EB",
+            "role": "Mobile Mechanic · 8 yrs exp",
+            "location": "Dallas, TX · 2.8 mi",
+            "rating": "4.7",
+            "jobs": "198"
+        },
+        {
+           "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
+            "name": "Felix Patel",
+            "badge": "",
+            "badgeType": "",
+            "avatarColor": "#0891B2",
+            "role": "Auto Electrician · 6 yrs exp",
+            "location": "Dallas, TX · 3.5 mi",
+            "rating": "4.6",
+            "jobs": "142"
+        }
+    ],
+
+    "electricians": [
+        {
+            "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&auto=format",
+            "name": "James Okafor",
+            "badge": "Top Rated",
+            "badgeType": "green",
+            "role": "Master Electrician · 15 yrs exp",
+            "location": "Austin, TX · 0.8 mi",
+            "rating": "4.9",
+            "jobs": "234"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
+            "name": "Lisa Wang",
+            "badge": "Verified",
+            "badgeType": "blue",
+            "avatarColor": "#D97706",
+            "role": "Licensed Electrician · 9 yrs exp",
+            "location": "Austin, TX · 1.9 mi",
+            "rating": "4.8",
+            "jobs": "176"
+        },
+        {
+         "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
+            "name": "Brian Moss",
+            "badge": "",
+            "badgeType": "",
+            "avatarColor": "#059669",
+            "role": "Electrician · 5 yrs exp",
+            "location": "Austin, TX · 3.2 mi",
+            "rating": "4.5",
+            "jobs": "89"
+        }
+    ],
+
+    "plumbers": [
+        {
+            "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
+            "name": "Ana Gonzalez",
+            "badge": "Verified",
+            "badgeType": "blue",
+            "role": "Emergency Plumber · 11 yrs exp",
+            "location": "Houston, TX · 1.1 mi",
+            "rating": "4.8",
+            "jobs": "189"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
+            "name": "Kevin O'Brien",
+            "badge": "",
+            "badgeType": "",
+            "avatarColor": "#0891B2",
+            "role": "Residential Plumber · 7 yrs exp",
+            "location": "Houston, TX · 2.3 mi",
+            "rating": "4.7",
+            "jobs": "134"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
+            "name": "Yusuf Ndiaye",
+            "badge": "",
+            "badgeType": "",
+            "avatarColor": "#16A34A",
+            "role": "Drain Specialist · 4 yrs exp",
+            "location": "Houston, TX · 4.1 mi",
+            "rating": "4.6",
+            "jobs": "71"
+        }
+    ]
+}

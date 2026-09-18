@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services — HelpHub</title>
+  <link rel="stylesheet" href="services.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+
+<div class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a><span>/</span>Services</div>
+    <h1>Find the Help You Need</h1>
+    <p>Browse verified providers across all service categories — available near you.</p>
+  </div>
+</div>
+
+<section class="section section-alt" style="padding:28px 0">
+  <div class="container">
+    <div class="filter-bar">
+      <input id="serviceFilter" type="text" placeholder="Search services or providers...">
+      <select id="categoryFilter">
+        <option value="">All Categories</option>
+        <option value="blood">Blood Donation</option>
+        <option value="ambulance">Ambulance</option>
+        <option value="mechanic">Mechanic</option>
+        <option value="electrician">Electrician</option>
+        <option value="plumber">Plumber</option>
+      </select>
+      <select>
+        <option>Any Distance</option>
+        <option>Within 1 mi</option>
+        <option>Within 5 mi</option>
+        <option>Within 10 mi</option>
+      </select>
+   
+      <div class="filter-tabs">
+        <button class="filter-tab active">All</button>
+        <button class="filter-tab">Available Now</button>
+        <button class="filter-tab">Emergency</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:32px">
+  <div class="container">
+
+    <!-- Blood Donation -->
+    <div class="section-row-head" id="blood">
+      <div><div class="eyebrow">Emergency & Medical</div><h2>Blood Donation</h2></div>
+      <span class="badge badge-red">248 available</span>
+    </div>
+ <div id="bloodProviders" class="providers-grid mb-lg"></div>
+ <div class="divider"></div>
+
+    <!-- Mechanics -->
+    <div class="section-row-head" style="margin-top:32px" id="mechanic">
+      <div><div class="eyebrow">Vehicle Services</div><h2>Mechanics</h2></div>
+      <span class="badge badge-blue">184 available</span>
+    </div>
+<div id="mechanicProviders" class="providers-grid mb-lg"></div>
+  <div class="divider"></div>
+
+    <!-- Electricians -->
+    <div class="section-row-head" style="margin-top:32px" id="electrician">
+      <div><div class="eyebrow">Home Services</div><h2>Electricians</h2></div>
+      <span class="badge badge-amber">127 available</span>
+    </div>
+    <div id="electricianProviders" class="providers-grid mb-lg"></div>
+    <div class="divider"></div>
+
+    <!-- Plumbers -->
+    <div class="section-row-head" style="margin-top:32px" id="plumber">
+      <div><div class="eyebrow">Home Services</div><h2>Plumbers</h2></div>
+      <span class="badge badge-blue">93 available</span>
+    </div>
+   <div id="plumberProviders" class="providers-grid mb-lg"></div>
+    <div style="text-align:center;padding:40px 0">
+      <a href="post-job.html" class="btn btn-primary btn-lg">Can't find what you need? Post a Job →</a>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+
+            <h2>
+                <span class="brand-icon"><img src="C:\Users\User\OneDrive\Desktop\IP project S2026-B47\images\logo.jpeg" alt="helpHub logo"></span>
+                Help<span>Hub</span>
+            </h2>
+
+            <p>
+                Connecting communities with<br>
+                trusted local service providers.<br>
+                Fast, reliable, and always<br>
+                nearby.
+            </p>
+
+        </div>
+
+
+        <!-- Services -->
+        <div class="footer-column">
+
+            <h3>SERVICES</h3>
+
+            <a href="services.html#blood">Blood Donation</a>
+            <a href="services.html">Ambulance</a>
+            <a href="services.html#mechanic">Mechanic</a>
+            <a href="services.html#electrician">Electrician</a>
+            <a href="services.html?#plumber">Plumber</a>
+            <a href="emergency.html">Emergency Help</a>
+
+        </div>
+
+
+        <!-- Platform -->
+        <div class="footer-column">
+
+            <h3>PLATFORM</h3>
+
+            <a href="register.html">Post a Job</a>
+            <a href="services.html">Find Providers</a>
+            <a href="emergency.html">Emergency</a>
+
+        </div>
+
+
+        <!-- Company -->
+        <div class="footer-column">
+
+            <h3>COMPANY</h3>
+
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+
+            <div class="contact-info">
+
+                <p>📧 support@helphub.com.bd</p>
+                <p>📞 +16247 </p>
+                <p>🚨 Emergency: 999 </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Bottom -->
+    <div class="footer-bottom">
+
+        <p>© 2026 HelpHub. All rights reserved.</p>
+
+        <p>Made with care for local communities.</p>
+
+    </div>
+
+</footer>
+<script src="services.js"></script>
+</body>
+</html>
