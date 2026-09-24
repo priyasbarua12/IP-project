@@ -1,0 +1,546 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8fafc;
+    color: #071b3a;
+}
+
+.signup-page {
+    min-height: 100vh;
+    display: flex;
+}
+
+
+/* LEFT SIDE */
+
+.left-panel {
+    width: 52%;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        135deg,
+        #064d29,
+        #005b2d
+    );
+
+    color: white;
+
+    padding: 50px 46px 28px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.brand-icon {
+    width: 36px;
+    height: 36px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.left-content {
+    margin-top: auto;
+    margin-bottom: auto;
+
+    max-width: 440px;
+}
+
+.left-content h1 {
+    font-size: 40px;
+    line-height: 1.02;
+
+    margin-bottom: 18px;
+
+    letter-spacing: -1.2px;
+}
+
+.left-content p {
+    color: #9df5c1;
+
+    font-size: 18px;
+    line-height: 1.65;
+ 
+    margin-bottom: 27px;
+}
+
+.left-content ul {
+    list-style: none;
+}
+
+.left-content li {
+    color: #9df5c1;
+
+    font-size: 15px;
+
+    margin: 17px 0;
+
+    padding-left: 22px;
+
+    position: relative;
+}
+
+.left-content li::before {
+    content: "✓";
+
+    position: absolute;
+    left: 0;
+
+    color: #00e676;
+
+    font-weight: bold;
+}
+
+.copyright {
+    color: #00df6b;
+
+    font-size: 13px;
+}
+
+
+/* RIGHT SIDE */
+
+.right-panel {
+    width: 48%;
+    min-height: 100vh;
+
+    background: #fafafa;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 50px 48px 30px;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 425px;
+}
+
+
+/* STEPS */
+
+.steps {
+    font-size: 14px;
+
+    color: #8b94a4;
+
+    margin-bottom: 10px;
+}
+
+.active-step {
+    color: #00a844;
+
+    font-weight: 700;
+}
+
+.arrow {
+    margin: 0 7px;
+
+    color: #c2c7ce;
+}
+
+
+/* HEADING */
+
+.form-container h2 {
+    font-size: 31px;
+
+    line-height: 1.2;
+
+    letter-spacing: -0.7px;
+
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #687386;
+
+    font-size: 16px;
+
+    margin-bottom: 30px;
+}
+
+
+/* CUSTOMER / ADMIN */
+
+.account-types {
+    width: 100%;
+    height: 44px;
+
+    display: flex;
+
+    gap: 2px;
+
+    background: #f1f2f4;
+
+    border-radius: 12px;
+
+    padding: 3px;
+
+    margin-bottom: 18px;
+}
+
+.type-button {
+    flex: 1;
+
+    border: none;
+
+    background: transparent;
+
+    border-radius: 9px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    color: #667085;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.type-button.active {
+    background: white;
+
+    color: #101828;
+
+    box-shadow:
+        0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+.person-icon,
+.admin-icon {
+    color: #5c338c;
+
+    margin-right: 5px;
+}
+
+
+/* SERVICE PROVIDER SECTION */
+
+.provider-options {
+    background: #f4f5f7;
+
+    border-radius: 12px;
+
+    padding: 14px;
+
+    margin-bottom: 20px;
+}
+
+.provider-options.hidden {
+    display: none;
+}
+
+.provider-title {
+    font-size: 14px;
+
+    font-weight: 700;
+
+    color: #17233d;
+
+    margin-bottom: 4px;
+}
+
+.provider-subtitle {
+    font-size: 12px;
+
+    color: #7b8493;
+
+    margin-bottom: 12px;
+}
+
+
+/* INDIVIDUAL / ORGANIZATION */
+
+.provider-types {
+    display: flex;
+
+    gap: 8px;
+}
+
+.provider-type {
+    flex: 1;
+
+    min-height: 60px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 9px;
+
+    text-align: left;
+
+    padding: 8px 10px;
+
+    background: white;
+
+    border: 1px solid #e1e5ea;
+
+    border-radius: 9px;
+
+    cursor: pointer;
+
+    color: #344054;
+
+    transition: 0.2s;
+}
+
+.provider-type:hover {
+    border-color: #00ad46;
+}
+
+.provider-type.active {
+    border: 2px solid #00ad46;
+
+    padding: 7px 9px;
+}
+
+.provider-type > span {
+    font-size: 19px;
+}
+
+.provider-type strong {
+    display: block;
+
+    font-size: 12px;
+
+    margin-bottom: 3px;
+}
+
+.provider-type small {
+    display: block;
+
+    font-size: 10px;
+
+    color: #8a94a5;
+
+    line-height: 1.25;
+}
+
+
+/* FORM */
+
+.form-group {
+    margin-bottom: 17px;
+}
+
+.form-group label {
+    display: block;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    margin-bottom: 8px;
+
+    color: #17233d;
+}
+
+.form-group input {
+    width: 100%;
+    height: 47px;
+
+    border: 1px solid #dce1e7;
+
+    border-radius: 12px;
+
+    padding: 0 16px;
+
+    font-size: 14px;
+
+    color: #17233d;
+
+    outline: none;
+
+    background: #fbfcfd;
+
+    transition: 0.2s;
+}
+
+.form-group input::placeholder {
+    color: #8791a1;
+}
+
+.form-group input:focus {
+    border-color: #00a844;
+
+    box-shadow:
+        0 0 0 3px rgba(0, 168, 68, 0.08);
+
+    background: white;
+}
+
+
+/* CONTINUE BUTTON */
+
+.continue-button {
+    width: 100%;
+    height: 48px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: #00ad46;
+
+    color: white;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.continue-button:hover {
+    background: #00983e;
+
+    transform: translateY(-1px);
+}
+
+
+/* TERMS */
+
+.terms {
+    text-align: center;
+
+    color: #8a94a5;
+
+    font-size: 12px;
+
+    line-height: 1.45;
+
+    margin: 16px auto 27px;
+
+    max-width: 410px;
+}
+
+.terms a,
+.signin a {
+    color: #00a844;
+
+    text-decoration: none;
+}
+
+.terms a:hover,
+.signin a:hover {
+    text-decoration: underline;
+}
+
+
+/* SIGN IN */
+
+.signin {
+    text-align: center;
+
+    color: #778195;
+
+    font-size: 14px;
+}
+
+.signin a {
+    font-weight: 700;
+}
+
+
+/* ERROR */
+
+.error-message {
+    color: #d92d20;
+
+    font-size: 12px;
+
+    margin-top: 5px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 850px) {
+
+    .signup-page {
+        flex-direction: column;
+    }
+
+    .left-panel,
+    .right-panel {
+        width: 100%;
+    }
+
+    .left-panel {
+        min-height: 420px;
+
+        padding: 35px;
+    }
+
+    .left-content {
+        margin-top: 80px;
+
+        margin-bottom: 50px;
+    }
+
+    .right-panel {
+        min-height: auto;
+
+        padding: 45px 30px;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .left-panel {
+        padding: 30px 25px;
+    }
+
+    .left-content h1 {
+        font-size: 34px;
+    }
+
+    .left-content p {
+        font-size: 16px;
+    }
+
+    .right-panel {
+        padding: 35px 20px;
+    }
+
+    .form-container h2 {
+        font-size: 27px;
+    }
+
+    .type-button {
+        font-size: 12px;
+    }
+
+    .provider-types {
+        flex-direction: column;
+    }
+}
