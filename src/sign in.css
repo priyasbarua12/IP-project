@@ -45,27 +45,7 @@ body {
     background: rgba(0, 0, 0, .035);
 }
 
-.brand {
-    display: inline-flex;
-    align-items: center;
-    gap: 11px;
-    color: white;
-    font-size: 25px;
-    font-weight: 700;
-    text-decoration: none;
-    width: max-content;
-}
 
-.brand-mark {
-    display: grid;
-    place-items: center;
-    height: 36px;
-    width: 36px;
-    border: 1px solid rgba(255, 255, 255, .24);
-    border-radius: 12px;
-    background: rgba(255, 255, 255, .1);
-    font-size: 18px;
-}
 
 .brand-copy {
     margin: auto 0;
@@ -94,31 +74,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-.avatar-row span,
-.avatar-row strong {
-    display: grid;
-    place-items: center;
-    width: 39px;
-    height: 39px;
-    margin-right: -3px;
-    border: 2px solid #00632c;
-    border-radius: 50%;
-    background: #087440;
-    color: #e8fff2;
-    font-size: 12px;
-    font-weight: 700;
-}
-
-.avatar-row strong {
-    width: 42px;
-    background: #00b64b;
-    font-size: 11px;
-}
-
-.brand-copy small {
-    color: #d2fae1;
-    font-size: 15px;
-}
 
 footer {
     position: relative;

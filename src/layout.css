@@ -1,0 +1,251 @@
+.hh-layout-header {
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  padding: 0 32px;
+  background: #fff;
+  border-bottom: 1px solid #e7ebee;
+  color: #10223f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hh-brand {
+  display: flex;
+  align-items: center;
+  color: #101c30;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+
+.hh-brand-mark {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin-right: 8px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.hh-brand strong {
+  color: #00ad48;
+}
+
+.hh-nav {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+  margin-left: auto;
+}
+
+.hh-nav a {
+  padding: 10px 0;
+  color: #48546b;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hh-nav a:hover {
+  color: #00a847;
+}
+
+.hh-nav a.hh-active {
+  padding: 10px 13px;
+  border-radius: 8px;
+  background: #edfff3;
+  color: #009945;
+}
+
+.hh-nav .hh-emergency {
+  padding: 10px 13px;
+  border-radius: 8px;
+  background: #fff0f1;
+  color: #dd2533;
+  font-weight: 700;
+}
+
+.hh-emergency-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: #ff6270;
+}
+
+.hh-actions {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-left: 8px;
+}
+
+.hh-actions>a:first-child {
+  color: #394861;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hh-get-started {
+  padding: 10px 18px;
+  border-radius: 9px;
+  background: #00a847;
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hh-menu {
+  display: none;
+  margin-left: auto;
+  border: 0;
+  background: transparent;
+  color: #10223f;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.hh-layout-footer {
+  margin-top: 0;
+  padding: 52px 40px 0;
+  border-top: 8px solid #009b3a;
+  background: #0f172a;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hh-footer-inner {
+  display: grid;
+  max-width: 1160px;
+  margin: 0 auto;
+  grid-template-columns: 1.35fr repeat(3, 1fr);
+  gap: 52px;
+}
+
+.hh-footer-brand {
+  margin: 0 0 16px;
+  font-size: 22px;
+}
+
+.hh-footer-brand strong {
+  color: #00b84f;
+}
+
+.hh-footer-copy {
+  max-width: 260px;
+  margin: 0;
+  color: #aab8cc;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.hh-footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.hh-footer-column h3 {
+  margin: 0 0 6px;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: .5px;
+}
+
+.hh-footer-column a {
+  color: #d4deec;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.hh-footer-column a:hover {
+  color: #22c55e;
+}
+
+.hh-footer-bottom {
+  display: flex;
+  max-width: 1160px;
+  margin: 38px auto 0;
+  padding: 22px 0 34px;
+  border-top: 1px solid #29374b;
+  justify-content: space-between;
+  color: #74849a;
+  font-size: 13px;
+}
+
+@media (max-width: 850px) {
+  .hh-layout-header {
+    padding: 0 20px;
+  }
+
+  .hh-menu {
+    display: block;
+  }
+
+  .hh-nav,
+  .hh-actions {
+    display: none;
+  }
+
+  .hh-layout-header.hh-menu-open .hh-nav {
+    position: absolute;
+    top: 65px;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 12px 20px;
+    background: #fff;
+    box-shadow: 0 12px 20px rgba(12, 40, 64, .1);
+  }
+
+  .hh-layout-header.hh-menu-open .hh-nav a {
+    padding: 12px;
+  }
+
+  .hh-layout-header.hh-menu-open .hh-actions {
+    position: absolute;
+    top: 320px;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+    background: #fff;
+    box-shadow: 0 12px 20px rgba(12, 40, 64, .1);
+  }
+
+  .hh-footer-inner {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+  }
+}
+
+@media (max-width: 520px) {
+  .hh-footer-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .hh-layout-footer {
+    padding: 42px 24px 0;
+  }
+
+  .hh-footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hh-brand {
+    font-size: 20px;
+  }
+}

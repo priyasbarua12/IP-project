@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | HelpHub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="layout.css" />
+  </head>
+  
+  <body>
+    <script src="layout.js"></script>
+    <section class="page-intro">
+      <h1>Contact Us</h1>
+      <p>We're here to help. Reach out and we'll respond within 24 hours.</p>
+    </section>
+
+    <main class="contact-area">
+      <section class="contact-details" aria-label="Contact information">
+        <article class="detail-card"><span class="icon email">✉</span><div><h2>Email Us</h2><a href="mailto:support@helphub.app">helphub@gnail.com.bd</a><p>For general inquiries</p></div></article>
+        <article class="detail-card"><span class="icon phone">●</span><div><h2>Call Us</h2><a href="tel:+18004357482">+88016247 HELP-HUB</a><p>Mon–Fri, 9am–6pm BST</p></div></article>
+        <article class="detail-card"><span class="icon pin">●</span><div><h2>Office</h2><a href="https://www.google.com/maps/place/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0+%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%9F%E0%A6%BF,+%E0%A6%A1%E0%A6%BF%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F+%E0%A6%93%E0%A6%AB+%E0%A6%B8%E0%A6%BF%E0%A6%8F%E0%A6%B8%E0%A6%87,+%E0%A6%A1%E0%A6%BF%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F+%E0%A6%93%E0%A6%AB+%E0%A6%87%E0%A6%95%E0%A7%8B%E0%A6%A8%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%B8,+%E0%A6%A1%E0%A6%BF%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F+%E0%A6%93%E0%A6%AB+%E0%A6%B2+%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A1+%E0%A6%A1%E0%A6%BF%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F+%E0%A6%93%E0%A6%AB+%E0%A6%87%E0%A6%87%E0%A6%87./@22.3387534,91.834992,18z/data=!4m6!3m5!1s0x30ad275971a7ceaf:0x1300e42a953c30ec!8m2!3d22.3387534!4d91.83591!16s%2Fg%2F11cs47m78w?entry=ttu&g_ep=EgoyMDI2MDkxNS4wIKXMDSoASAFQAw%3D%3D">Hazari lane, Chittagong 4000</a><p>123 Innovation Drive</p></div></article>
+        <article class="detail-card"><span class="icon emergency">▲</span><div><h2>Emergency</h2><a href="tel:999">Call 999</a><p>For life-threatening emergencies</p></div></article>
+      </section>
+
+      <section class="form-card">
+        <h2>Send us a message</h2>
+        <form id="contact-form">
+          <div class="two-columns">
+            <label>Name<input required name="name" type="text" placeholder="Your full name" /></label>
+            <label>Email<input required name="email" type="email" placeholder="you@example.com" /></label>
+          </div>
+          <label>Subject<select required name="subject"><option value="" selected disabled>Select a topic</option><option>General inquiry</option><option>Account support</option><option>Provider support</option><option>Feedback</option></select></label>
+          <label>Message<textarea required name="message" placeholder="Tell us how we can help..."></textarea></label>
+          <button type="submit">Send Message</button>
+          <p class="success-message" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+    <script src="contact.js"></script>
+  </body>
+  <footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+
+            <h2>
+                <span class="brand-icon"><img src="../images/logo.jpeg" alt="helpHub logo"></span>
+                Help<span>Hub</span>
+            </h2>
+
+            <p>
+                Connecting communities with<br>
+                trusted local service providers.<br>
+                Fast, reliable, and always<br>
+                nearby.
+            </p>
+
+        </div>
+
+
+        <!-- Services -->
+        <div class="footer-column">
+
+            <h3>SERVICES</h3>
+
+            <a href="services.html#blood">Blood Donation</a>
+            <a href="services.html#mechanic">Mechanic</a>
+            <a href="services.html#electrician">Electrician</a>
+            <a href="services.html#plumber">Plumber</a>
+            <a href="emergency.html">Emergency Help</a>
+
+        </div>
+
+
+        <!-- Platform -->
+        <div class="footer-column">
+
+            <h3>PLATFORM</h3>
+
+            <a href="register.html">Post a Job</a>
+            <a href="services.html">Find Providers</a>
+            <a href="emergency.html">Emergency</a>
+
+        </div>
+
+
+        <!-- Company -->
+        <div class="footer-column">
+
+            <h3>COMPANY</h3>
+
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            
+
+            <div class="contact-info">
+
+                <p>📧 support@helphub.com.bd</p>
+                <p>📞 +16247 </p>
+                <p>🚨 Emergency: 999 </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Bottom -->
+    <div class="footer-bottom">
+
+        <p>© 2026 HelpHub. All rights reserved.</p>
+
+        <p>Made with care for local communities.</p>
+
+    </div>
+
+</footer>
+</html>

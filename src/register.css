@@ -45,20 +45,7 @@ body {
     font-weight: 700;
 }
 
-.brand-icon {
-    width: 36px;
-    height: 36px;
 
-    border: 1px solid rgba(255, 255, 255, 0.3);
-
-    border-radius: 12px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: rgba(255, 255, 255, 0.06);
-}
 
 .left-content {
     margin-top: auto;

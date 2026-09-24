@@ -1,6 +1,4 @@
-/* =========================
-   MAIN ACCOUNT TYPE
-========================= */
+
 
 const typeButtons =
     document.querySelectorAll(".type-button");
@@ -26,35 +24,29 @@ typeButtons.forEach(function(button) {
 
     button.addEventListener("click", function() {
 
-        /* Remove active from both buttons */
+
 
         typeButtons.forEach(function(item) {
             item.classList.remove("active");
         });
 
 
-        /* Add active to clicked button */
+   
 
         button.classList.add("active");
 
 
-        /* Get selected account */
+
 
         accountType = button.dataset.type;
 
 
-        /* =========================
-           ADMIN SELECTED
-        ========================= */
-
         if (accountType === "admin") {
 
-            /* Show Service Provider section */
+          
 
             providerOptions.classList.remove("hidden");
 
-
-            /* Change left side */
 
             leftTitle.innerHTML =
                 "Manage your<br>service business.";
@@ -72,18 +64,13 @@ typeButtons.forEach(function(button) {
         }
 
 
-        /* =========================
-           CUSTOMER SELECTED
-        ========================= */
-
+    
         else {
 
-            /* Hide Service Provider */
 
             providerOptions.classList.add("hidden");
 
 
-            /* Change left side back */
 
             leftTitle.innerHTML =
                 "Get the help<br>you need.";
@@ -103,9 +90,6 @@ typeButtons.forEach(function(button) {
 });
 
 
-/* =========================
-   INDIVIDUAL / ORGANIZATION
-========================= */
 
 const providerButtons =
     document.querySelectorAll(".provider-type");
@@ -115,19 +99,15 @@ providerButtons.forEach(function(button) {
 
     button.addEventListener("click", function() {
 
-        /* Remove active */
 
         providerButtons.forEach(function(item) {
             item.classList.remove("active");
         });
 
 
-        /* Add active */
 
         button.classList.add("active");
 
-
-        /* Save provider type */
 
         providerType =
             button.dataset.provider;
@@ -137,9 +117,6 @@ providerButtons.forEach(function(button) {
 });
 
 
-/* =========================
-   FORM
-========================= */
 
 const form =
     document.getElementById("signupForm");
@@ -166,8 +143,6 @@ form.addEventListener("submit", function(event) {
     clearErrors();
 
 
-    /* Full Name */
-
     if (fullName.value.trim() === "") {
 
         showError(
@@ -179,7 +154,6 @@ form.addEventListener("submit", function(event) {
     }
 
 
-    /* Email */
 
     if (email.value.trim() === "") {
 
@@ -192,7 +166,7 @@ form.addEventListener("submit", function(event) {
     }
 
 
-    /* Phone */
+   
 
     if (phone.value.trim() === "") {
 
@@ -205,7 +179,7 @@ form.addEventListener("submit", function(event) {
     }
 
 
-    /* Password */
+    
 
     if (password.value.length < 8) {
 
@@ -218,10 +192,6 @@ form.addEventListener("submit", function(event) {
     }
 
 
-    /* =========================
-       SUCCESS
-    ========================= */
-
     let message =
         "Account type: " +
         (
@@ -231,7 +201,6 @@ form.addEventListener("submit", function(event) {
         );
 
 
-    /* If Admin */
 
     if (accountType === "admin") {
 
@@ -246,7 +215,7 @@ form.addEventListener("submit", function(event) {
 
 
     message +=
-        "\n\nStep 1 completed successfully!";
+        "\n\nStep completed successfully!";
 
 
     alert(message);
@@ -254,9 +223,6 @@ form.addEventListener("submit", function(event) {
 });
 
 
-/* =========================
-   ERROR FUNCTION
-========================= */
 
 function showError(input, message) {
 
@@ -276,10 +242,6 @@ function showError(input, message) {
 }
 
 
-/* =========================
-   CLEAR ERRORS
-========================= */
-
 function clearErrors() {
 
     document
@@ -291,10 +253,6 @@ function clearErrors() {
         });
 }
 
-
-/* =========================
-   REMOVE ERROR WHILE TYPING
-========================= */
 
 document
     .querySelectorAll("input")

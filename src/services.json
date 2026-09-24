@@ -1,136 +1,195 @@
 {
-    "bloodDonation": [
-        {
-         "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
-            "name": "Rahul Kumar",
-            "bloodType": "O+",
-            "role": "Blood Donor · Volunteer",
-            "location": "Austin, TX · 0.6 mi",
-            "available": true,
-            "avatarColor": "#16A34A"
-        },
-        {
-            "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
-            "name": "Tina Moore",
-            "bloodType": "AB-",
-            "role": "Blood Donor · Volunteer",
-            "location": "Austin, TX · 1.2 mi",
-            "available": true,
-            "avatarColor": "#DC2626"
-        },
-        {
-            "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
-            "name": "John Stiles",
-            "bloodType": "B+",
-            "role": "Blood Donor · Volunteer",
-            "location": "Austin, TX · 2.1 mi",
-            "available": true,
-            "avatarColor": "#7C3AED"
-        }
-    ],
-
-    "mechanics": [
-        {
-            "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&auto=format",
-            "name": "Mike Thompson",
-            "badge": "Top Rated",
-            "badgeType": "green",
-            "role": "Auto Mechanic · 12 yrs exp",
-            "location": "Dallas, TX · 1.4 mi",
-            "rating": "4.9",
-            "jobs": "312"
-        },
-        {
-            "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
-            "name": "David Lee",
-            "badge": "Verified",
-            "badgeType": "blue",
-            "avatarColor": "#2563EB",
-            "role": "Mobile Mechanic · 8 yrs exp",
-            "location": "Dallas, TX · 2.8 mi",
-            "rating": "4.7",
-            "jobs": "198"
-        },
-        {
-           "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
-            "name": "Felix Patel",
-            "badge": "",
-            "badgeType": "",
-            "avatarColor": "#0891B2",
-            "role": "Auto Electrician · 6 yrs exp",
-            "location": "Dallas, TX · 3.5 mi",
-            "rating": "4.6",
-            "jobs": "142"
-        }
-    ],
-
-    "electricians": [
-        {
-            "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&auto=format",
-            "name": "James Okafor",
-            "badge": "Top Rated",
-            "badgeType": "green",
-            "role": "Master Electrician · 15 yrs exp",
-            "location": "Austin, TX · 0.8 mi",
-            "rating": "4.9",
-            "jobs": "234"
-        },
-        {
-            "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
-            "name": "Lisa Wang",
-            "badge": "Verified",
-            "badgeType": "blue",
-            "avatarColor": "#D97706",
-            "role": "Licensed Electrician · 9 yrs exp",
-            "location": "Austin, TX · 1.9 mi",
-            "rating": "4.8",
-            "jobs": "176"
-        },
-        {
-         "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
-            "name": "Brian Moss",
-            "badge": "",
-            "badgeType": "",
-            "avatarColor": "#059669",
-            "role": "Electrician · 5 yrs exp",
-            "location": "Austin, TX · 3.2 mi",
-            "rating": "4.5",
-            "jobs": "89"
-        }
-    ],
-
-    "plumbers": [
-        {
-            "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
-            "name": "Ana Gonzalez",
-            "badge": "Verified",
-            "badgeType": "blue",
-            "role": "Emergency Plumber · 11 yrs exp",
-            "location": "Houston, TX · 1.1 mi",
-            "rating": "4.8",
-            "jobs": "189"
-        },
-        {
-            "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
-            "name": "Kevin O'Brien",
-            "badge": "",
-            "badgeType": "",
-            "avatarColor": "#0891B2",
-            "role": "Residential Plumber · 7 yrs exp",
-            "location": "Houston, TX · 2.3 mi",
-            "rating": "4.7",
-            "jobs": "134"
-        },
-        {
-            "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1e8?w=100&h=100&fit=crop&auto=format",
-            "name": "Yusuf Ndiaye",
-            "badge": "",
-            "badgeType": "",
-            "avatarColor": "#16A34A",
-            "role": "Drain Specialist · 4 yrs exp",
-            "location": "Houston, TX · 4.1 mi",
-            "rating": "4.6",
-            "jobs": "71"
-        }
-    ]
+  "bloodDonation": [
+    {
+      "image": "",
+      "name": "Rahim Ahmed",
+      "bloodType": "O+",
+      "role": "Blood Donor · Volunteer",
+      "location": "Dhanmondi, Dhaka · 1.0 km",
+      "available": true,
+      "avatarColor": "#16A34A"
+    },
+    {
+      "image": "",
+      "name": "Tania Islam",
+      "bloodType": "AB-",
+      "role": "Blood Donor · Volunteer",
+      "location": "Mirpur, Dhaka · 2.3 km",
+      "available": true,
+      "avatarColor": "#DC2626"
+    },
+    {
+      "image": "",
+      "name": "Jahid Hasan",
+      "bloodType": "B+",
+      "role": "Blood Donor · Volunteer",
+      "location": "Uttara, Dhaka · 3.8 km",
+      "available": true,
+      "avatarColor": "#7C3AED"
+    },
+    {
+      "image": "",
+      "name": "Maya Sultana",
+      "bloodType": "A-",
+      "role": "Blood Donor · Volunteer",
+      "location": "Mohammadpur, Dhaka · 4.2 km",
+      "available": true,
+      "avatarColor": "#E11D48"
+    },
+    {
+      "image": "",
+      "name": "Ehsan Kabir",
+      "bloodType": "O-",
+      "role": "Blood Donor · Volunteer",
+      "location": "Banani, Dhaka · 5.1 km",
+      "available": false,
+      "avatarColor": "#0F766E"
+    }
+  ],
+  "mechanics": [
+    {
+      "image": "",
+      "name": "Mizanur Rahman",
+      "badge": "Top Rated",
+      "badgeType": "green",
+      "role": "Auto Mechanic · 12 yrs exp",
+      "location": "Gulshan, Dhaka · 1.7 km",
+      "rating": "4.9",
+      "jobs": "312"
+    },
+    {
+      "image": "",
+      "name": "David Dutta",
+      "badge": "Verified",
+      "badgeType": "blue",
+      "avatarColor": "#2563EB",
+      "role": "Mobile Mechanic · 8 yrs exp",
+      "location": "Bashundhara, Dhaka · 3.0 km",
+      "rating": "4.7",
+      "jobs": "198"
+    },
+    {
+      "image": "",
+      "name": "Faisal Hossain",
+      "badge": "",
+      "badgeType": "",
+      "avatarColor": "#0891B2",
+      "role": "Auto Electrician · 6 yrs exp",
+      "location": "Tejgaon, Dhaka · 4.1 km",
+      "rating": "4.6",
+      "jobs": "142"
+    },
+    {
+      "image": "",
+      "name": "Nusrat Jahan",
+      "badge": "Verified",
+      "badgeType": "blue",
+      "avatarColor": "#9333EA",
+      "role": "Auto Mechanic · 10 yrs exp",
+      "location": "Badda, Dhaka · 4.8 km",
+      "rating": "4.8",
+      "jobs": "227"
+    },
+    {
+      "image": "",
+      "name": "Kamal Uddin",
+      "badge": "",
+      "badgeType": "",
+      "avatarColor": "#EA580C",
+      "role": "Brake Specialist · 5 yrs exp",
+      "location": "Khilgaon, Dhaka · 5.5 km",
+      "rating": "4.5",
+      "jobs": "116"
+    }
+  ],
+  "electricians": [
+    {
+      "image": "",
+      "name": "Jamal Hossain",
+      "badge": "Top Rated",
+      "badgeType": "green",
+      "role": "Master Electrician · 15 yrs exp",
+      "location": "Agrabad, Chattogram · 1.2 km",
+      "rating": "4.9",
+      "jobs": "234"
+    },
+    {
+      "image": "",
+      "name": "Lima Akter",
+      "badge": "Verified",
+      "badgeType": "blue",
+      "avatarColor": "#D97706",
+      "role": "Licensed Electrician · 9 yrs exp",
+      "location": "Panchlaish, Chattogram · 2.6 km",
+      "rating": "4.8",
+      "jobs": "176"
+    },
+    {
+      "image": "",
+      "name": "Biplob Das",
+      "badge": "",
+      "badgeType": "",
+      "avatarColor": "#059669",
+      "role": "Electrician · 5 yrs exp",
+      "location": "Halishahar, Chattogram · 4.0 km",
+      "rating": "4.5",
+      "jobs": "89"
+    },
+    {
+      "image": "",
+      "name": "Priyanka Roy",
+      "badge": "Verified",
+      "badgeType": "blue",
+      "avatarColor": "#DB2777",
+      "role": "Residential Electrician · 7 yrs exp",
+      "location": "Nasirabad, Chattogram · 5.3 km",
+      "rating": "4.7",
+      "jobs": "153"
+    }
+  ],
+  "plumbers": [
+    {
+      "image": "",
+      "name": "Anika Rahman",
+      "badge": "Verified",
+      "badgeType": "blue",
+      "role": "Emergency Plumber · 11 yrs exp",
+      "location": "Boalia, Rajshahi · 1.5 km",
+      "rating": "4.8",
+      "jobs": "189"
+    },
+    {
+      "image": "",
+      "name": "Kawsar Ali",
+      "badge": "",
+      "badgeType": "",
+      "avatarColor": "#0891B2",
+      "role": "Residential Plumber · 7 yrs exp",
+      "location": "Shaheb Bazar, Rajshahi · 2.9 km",
+      "rating": "4.7",
+      "jobs": "134"
+    },
+    {
+      "image": "",
+      "name": "Yusuf Khan",
+      "badge": "",
+      "badgeType": "",
+      "avatarColor": "#16A34A",
+      "role": "Drain Specialist · 4 yrs exp",
+      "location": "Kazla, Rajshahi · 4.4 km",
+      "rating": "4.6",
+      "jobs": "71"
+    },
+    {
+      "image": "",
+      "name": "Jubayer Islam",
+      "badge": "Top Rated",
+      "badgeType": "green",
+      "avatarColor": "#1D4ED8",
+      "role": "Commercial Plumber · 13 yrs exp",
+      "location": "Court Station, Rajshahi · 5.8 km",
+      "rating": "4.9",
+      "jobs": "261"
+    }
+  ]
 }

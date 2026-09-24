@@ -5,8 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Services — HelpHub</title>
   <link rel="stylesheet" href="services.css">
+  <link rel="stylesheet" href="layout.css">
 </head>
+<header class="site-header">
+      <a class="brand" href="#top" aria-label="HelpHub home"><img class="brand-mark" src="../images/logo.jpeg" alt="HelpHub logo"><span>Help<span>Hub</span></span></a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a><a href="services.html">Services</a><a class="active" href="about.html">About</a><a href="contact.html">Contact</a>
+        <a class="emergency" href="emergency.html"><i></i>Emergency</a>
+    
+      <a href="sign in.html">Sign in</a><a class="button small" href="register.html">Get Started</a>
+        </nav>
+    </header>
 <body>
+<script src="layout.js"></script>
 <div id="nav-placeholder"></div>
 
 <div class="page-header">
@@ -29,7 +41,7 @@
         <option value="electrician">Electrician</option>
         <option value="plumber">Plumber</option>
       </select>
-      <select>
+      <select id="distanceFilter">
         <option>Any Distance</option>
         <option>Within 1 mi</option>
         <option>Within 5 mi</option>
@@ -37,10 +49,12 @@
       </select>
    
       <div class="filter-tabs">
-        <button class="filter-tab active">All</button>
-        <button class="filter-tab">Available Now</button>
-        <button class="filter-tab">Emergency</button>
+        <button type="button" class="filter-tab active" data-filter="all">All</button>
+        <button type="button" class="filter-tab" data-filter="available">Available Now</button>
+        <button type="button" class="filter-tab" data-filter="emergency">Emergency</button>
+        <button type="button" id="serviceSearchButton" class="service-search-button">Search</button>
       </div>
+      <p id="searchStatus" class="search-status" role="status" aria-live="polite"></p>
     </div>
   </div>
 </section>
@@ -78,11 +92,13 @@
       <span class="badge badge-blue">93 available</span>
     </div>
    <div id="plumberProviders" class="providers-grid mb-lg"></div>
-    <div style="text-align:center;padding:40px 0">
-      <a href="post-job.html" class="btn btn-primary btn-lg">Can't find what you need? Post a Job →</a>
-    </div>
+
   </div>
 </section>
+<dialog id="providerDetails" class="provider-dialog" aria-labelledby="providerDetailsTitle">
+  <button type="button" class="provider-dialog-close" aria-label="Close provider details">×</button>
+  <div id="providerDetailsContent"></div>
+</dialog>
 <footer class="footer">
 
     <div class="footer-container">
@@ -91,7 +107,7 @@
         <div class="footer-brand">
 
             <h2>
-                <span class="brand-icon"><img src="C:\Users\User\OneDrive\Desktop\IP project S2026-B47\images\logo.jpeg" alt="helpHub logo"></span>
+                <span class="brand-icon"><img src="../images/logo.jpeg"></span>
                 Help<span>Hub</span>
             </h2>
 
@@ -111,10 +127,9 @@
             <h3>SERVICES</h3>
 
             <a href="services.html#blood">Blood Donation</a>
-            <a href="services.html">Ambulance</a>
             <a href="services.html#mechanic">Mechanic</a>
             <a href="services.html#electrician">Electrician</a>
-            <a href="services.html?#plumber">Plumber</a>
+            <a href="services.html#plumber">Plumber</a>
             <a href="emergency.html">Emergency Help</a>
 
         </div>
@@ -137,10 +152,9 @@
 
             <h3>COMPANY</h3>
 
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            
 
             <div class="contact-info">
 
