@@ -6,8 +6,7 @@
       "bloodType": "O+",
       "role": "Blood Donor · Volunteer",
       "location": "Dhanmondi, Dhaka · 1.0 km",
-      "available": true,
-      "avatarColor": "#16A34A"
+      "available": true
     },
     {
       "image": "",
@@ -15,8 +14,7 @@
       "bloodType": "AB-",
       "role": "Blood Donor · Volunteer",
       "location": "Mirpur, Dhaka · 2.3 km",
-      "available": true,
-      "avatarColor": "#DC2626"
+      "available": true
     },
     {
       "image": "",
@@ -24,8 +22,7 @@
       "bloodType": "B+",
       "role": "Blood Donor · Volunteer",
       "location": "Uttara, Dhaka · 3.8 km",
-      "available": true,
-      "avatarColor": "#7C3AED"
+      "available": true
     },
     {
       "image": "",
@@ -33,8 +30,7 @@
       "bloodType": "A-",
       "role": "Blood Donor · Volunteer",
       "location": "Mohammadpur, Dhaka · 4.2 km",
-      "available": true,
-      "avatarColor": "#E11D48"
+      "available": true
     },
     {
       "image": "",
@@ -42,8 +38,7 @@
       "bloodType": "O-",
       "role": "Blood Donor · Volunteer",
       "location": "Banani, Dhaka · 5.1 km",
-      "available": false,
-      "avatarColor": "#0F766E"
+      "available": true
     }
   ],
   "mechanics": [
@@ -62,7 +57,7 @@
       "name": "David Dutta",
       "badge": "Verified",
       "badgeType": "blue",
-      "avatarColor": "#2563EB",
+  
       "role": "Mobile Mechanic · 8 yrs exp",
       "location": "Bashundhara, Dhaka · 3.0 km",
       "rating": "4.7",
@@ -73,7 +68,6 @@
       "name": "Faisal Hossain",
       "badge": "",
       "badgeType": "",
-      "avatarColor": "#0891B2",
       "role": "Auto Electrician · 6 yrs exp",
       "location": "Tejgaon, Dhaka · 4.1 km",
       "rating": "4.6",
@@ -84,7 +78,6 @@
       "name": "Nusrat Jahan",
       "badge": "Verified",
       "badgeType": "blue",
-      "avatarColor": "#9333EA",
       "role": "Auto Mechanic · 10 yrs exp",
       "location": "Badda, Dhaka · 4.8 km",
       "rating": "4.8",
@@ -95,7 +88,6 @@
       "name": "Kamal Uddin",
       "badge": "",
       "badgeType": "",
-      "avatarColor": "#EA580C",
       "role": "Brake Specialist · 5 yrs exp",
       "location": "Khilgaon, Dhaka · 5.5 km",
       "rating": "4.5",
@@ -118,7 +110,6 @@
       "name": "Lima Akter",
       "badge": "Verified",
       "badgeType": "blue",
-      "avatarColor": "#D97706",
       "role": "Licensed Electrician · 9 yrs exp",
       "location": "Panchlaish, Chattogram · 2.6 km",
       "rating": "4.8",
@@ -129,7 +120,6 @@
       "name": "Biplob Das",
       "badge": "",
       "badgeType": "",
-      "avatarColor": "#059669",
       "role": "Electrician · 5 yrs exp",
       "location": "Halishahar, Chattogram · 4.0 km",
       "rating": "4.5",
@@ -140,7 +130,6 @@
       "name": "Priyanka Roy",
       "badge": "Verified",
       "badgeType": "blue",
-      "avatarColor": "#DB2777",
       "role": "Residential Electrician · 7 yrs exp",
       "location": "Nasirabad, Chattogram · 5.3 km",
       "rating": "4.7",
@@ -163,7 +152,6 @@
       "name": "Kawsar Ali",
       "badge": "",
       "badgeType": "",
-      "avatarColor": "#0891B2",
       "role": "Residential Plumber · 7 yrs exp",
       "location": "Shaheb Bazar, Rajshahi · 2.9 km",
       "rating": "4.7",
@@ -174,7 +162,6 @@
       "name": "Yusuf Khan",
       "badge": "",
       "badgeType": "",
-      "avatarColor": "#16A34A",
       "role": "Drain Specialist · 4 yrs exp",
       "location": "Kazla, Rajshahi · 4.4 km",
       "rating": "4.6",
@@ -185,7 +172,6 @@
       "name": "Jubayer Islam",
       "badge": "Top Rated",
       "badgeType": "green",
-      "avatarColor": "#1D4ED8",
       "role": "Commercial Plumber · 13 yrs exp",
       "location": "Court Station, Rajshahi · 5.8 km",
       "rating": "4.9",
